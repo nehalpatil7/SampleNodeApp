@@ -1,0 +1,16 @@
+{
+    "env": {
+        "port": 5000,
+        "mongo_Atlas_username": "MongoDbNodeJS",
+        "mongo_Atlas_Password": "MongoDbNodeJS",
+        "mongo_Atlas_dbname": "MongoDbNodeJS",
+        "base_url": "cdn.contentstack.io",
+        "stack_api_key": "",
+        "stack_delivery_token": "",
+        "stack_environment": "",
+        "content_type_uid": "",
+        "lang": "zh-tw",
+        "entry_uid": "",
+        "keyword": ""
+    }
+}
