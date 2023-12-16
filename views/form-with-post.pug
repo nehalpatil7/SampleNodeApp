@@ -40,13 +40,13 @@ html
       padding: 20px;
       }
   body
-    h3 Form showing POST req
+    h2 GAMES
+    h3 Please Enter Name
     div
       form(method='post', action='/success', name='form-with-post-form')
         label(for='fname') UserName
         input#fname(type='text' name='firstname' placeholder='Your userID' required autofocus)
         label(for='country') Country
         select#country(name='country' required)
-          option(value='India') India
-          option(value='taiwan') Taiwan
+          option(value='usa') USA
         input(type='submit' value='Submit')

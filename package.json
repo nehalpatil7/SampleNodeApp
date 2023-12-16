@@ -1,38 +1,43 @@
 {
-    "name": "training",
-    "version": "0.0.0",
-    "private": true,
-    "main": "app.js",
-    "scripts": {
-        "watch": "nodemon ./app.js",
-        "server": "node ./bin/www"
-    },
-    "dependencies": {
-        "@contentstack/json-rte-serializer": "^1.0.1",
-        "@contentstack/management": "^1.2.4",
-        "axios": "^0.21.4",
-        "contentstack": "^3.13.3",
-        "cookie-parser": "~1.4.4",
-        "cron": "^1.8.2",
-        "debug": "~2.6.9",
-        "ejs": "^3.1.6",
-        "express": "^4.17.1",
-        "fetch": "^1.1.0",
-        "fs": "0.0.1-security",
-        "git": "^0.1.5",
-        "html": "^1.0.0",
-        "http-errors": "~1.6.3",
-        "jade": "^0.29.0",
-        "mongodb": "^4.1.3",
-        "morgan": "~1.9.1",
-        "node": "^16.10.0",
-        "node-cron": "^3.0.0",
-        "npm-run-all": "^4.1.5",
-        "pug": "^3.0.2",
-        "winston": "^3.3.3"
-    },
-    "devDependencies": {
-        "babel-eslint": "^10.1.0",
-        "nodemon": "^2.0.13"
-    }
+  "name": "training",
+  "version": "0.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "watch": "nodemon ./app.js",
+    "server": "node ./bin/www"
+  },
+  "dependencies": {
+    "@contentstack/json-rte-serializer": "^1.0.1",
+    "@contentstack/management": "^1.2.4",
+    "axios": "^1.6.2",
+    "contentstack": "^3.13.3",
+    "cookie-parser": "~1.4.4",
+    "cron": "^1.8.2",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "git": "^0.1.5",
+    "html": "^1.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "mongodb": "^4.1.3",
+    "morgan": "~1.9.1",
+    "node": "^16.10.0",
+    "node-cron": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "pug": "^3.0.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "nodemon": "^2.0.22"
+  },
+  "description": "A sample NodeJs App developed for basic testing purposes",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
